@@ -1,0 +1,42 @@
+.card {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  padding: 2rem;
+
+  color: black;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card h3 {
+  margin-top: 10rem;
+  text-transform: capitalize;
+}
+
+.card img {
+  z-index: 100;
+  position: absolute;
+  top: 90px;
+  width: 90px;
+  height: 90px;
+  transition: all 0.3s ease;
+}
+.card img:hover {
+  transform: rotate(-15deg);
+  /* transform: scale(1.1); */
+}
+
+.path {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.712);
+  clip-path: polygon(0 0, 0 48%, 100% 0);
+}
