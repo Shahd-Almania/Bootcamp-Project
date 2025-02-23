@@ -1,6 +1,6 @@
 
 ## Used:
-* JAVA
+* Java
 * Spring Boot
 * JavaScript
 * React
